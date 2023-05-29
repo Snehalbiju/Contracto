@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/login_bg"
+    tools:context=".LoginActivity">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loginbg_animation"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/login_bottom" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_card">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alegreya_black_italic"
+                android:text="Hello There !"
+                android:textColor="@color/yellow_1"
+                android:textSize="40sp"
+                tools:text="Hello There !" />
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="41dp"
+                android:background="@drawable/custom_login_input"
+                android:drawableStart="@drawable/login_email_icon"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Email"
+                android:textColorHint="@android:color/darker_gray"
+                android:inputType="textWebEmailAddress"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="@android:color/black"
+                android:drawableStart="@drawable/login_lock_icon"
+                android:background="@drawable/custom_login_input"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="25dp"
+                android:hint="Password"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Login"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/yellow_1"
+                app:cornerRadius = "20dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/signupText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="8dp"
+        android:text="Not yet registered? SignUp Now"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:layout_marginBottom="20dp"
+        android:autoLink="web"
+        android:clickable="true"/>
+</LinearLayout>

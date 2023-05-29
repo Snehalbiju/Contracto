@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: LinguisticsPro-Regular
+font link: https://github.com/StefanPeev/Linguistics-Pro
+font author: Local Fonts
+font author site: https://localfonts.eu/
+
+
+icon designer: James Christopher
+icon designer link: /jchrisa
+        
+{"bg":"transparent","icon":"#488eff","font":"#2e3034","slogan":"#424448"}
+      

@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: manuale-bold
+font link: https://fonts.google.com/specimen/Manuale
+font author: Omnibus Type
+font author site: http://www.omnibus-type.com/
+
+
+icon designer: James Christopher
+icon designer link: /jchrisa
+        
+
+fontColor: {"gradient-0":"#005492","gradient-1":"#00ceee"}
+bgColor: {"hex":"#ffffff"}
+iconColor: {"gradient-0":"#005492","gradient-1":"#00ceee"}
+
+      
